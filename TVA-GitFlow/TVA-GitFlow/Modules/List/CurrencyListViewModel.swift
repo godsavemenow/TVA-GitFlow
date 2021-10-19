@@ -21,7 +21,7 @@ final class CurrencyListViewModel {
     var filteredKey = [String]()
     
     let nominhos = Currency(success: true,
-                            currencies: ["Jéssica" : "Amaral", "Luis" : "Pereira", "Iris" : "", "Hugo" : "", "Ana" :  "Clara", "Erick" : "Almeida", "Vítor" : "21", "Marina" : "Lima", "Julia" : "", "Elaine" : "", "Eduardo" : "", "Dudu" : "Ramos", "Juliano" : "Vaz", "Lívia" : "Oliveira", "Pedro" : "Spinola", "Morgana" : "", "Henrique" : "Fernandes", "Mayara" : "", "Nádia" : "Bordoni", "Alexandra" : "", "Evaldo" : "Júnior", "Dara" : "Vaconcelos", "Palloma" : "", "Meyri" : ""])
+                            currencies: ["Jéssica" : "Amaral", "Luis" : "Pereira", "Iris" : "", "Hugo" : "", "Ana" :  "Clara", "Erick" : "Almeida", "Vítor" : "Bárrios", "Marina" : "Lima", "Julia" : "", "Elaine" : "", "Eduardo" : "", "Dudu" : "Ramos", "Juliano" : "Vaz", "Lívia" : "Oliveira", "Pedro" : "Spinola", "Morgana" : "", "Henrique" : "Fernandes", "Mayara" : "", "Nádia" : "Bordoni", "Alexandra" : "", "Evaldo" : "Júnior", "Dara" : "Vaconcelos", "Palloma" : "", "Meyri" : ""])
     
     
     init(delegate: CurrencyListViewModelDelegate) {
